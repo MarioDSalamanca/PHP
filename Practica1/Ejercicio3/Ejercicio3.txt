@@ -1,0 +1,16 @@
+Su nombre es Paco 
+Su teléfono de contacto es el 123456789 
+Estudia Ciclo Superior (Está matriculado) 
+
+Su nombre es Chucha 
+Su teléfono de contacto es el 123456789 
+Estudia Ciclo Superior (Está matriculado) 
+
+Su nombre es Chucha 
+Su teléfono de contacto es el 123456789 
+Estudia Secundaria (No está matriculado) 
+
+Su nombre es Chuchilla 
+Su teléfono de contacto es el 123456789 
+Estudia Bachillerato (No está matriculado) 
+

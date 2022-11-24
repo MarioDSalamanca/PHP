@@ -1,0 +1,70 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="Ejercicio3_datos.php" method="post">
+        <h1>Datos del alumno</h1>
+        <table width="40%" style="border: 2px solid black;">
+            <tr>
+                <td>
+                    Introduzca su nombre:
+                </td>
+                <td>
+                    <input type="text" name="nombre">
+                </td>
+                <td style="text-align: center;">
+                    Enseñanza:
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="estudios" value="Secundaria"> Secundaria
+                            </td>
+                            <td>
+                                <input type="radio" name="estudios" value="Bachillerato"> Bachilleraro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="estudios" value="Ciclo Medio"> Ciclo Medio
+                            </td>
+                            <td>
+                                <input type="radio" name="estudios" value="Ciclo Superior"> Ciclo Superior
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    Introduzca su teléfono:
+                </td>
+                <td>
+                    <br>
+                    <input type="number" name="telefono">
+                </td>
+                <td style="text-align: center;">
+                    <br>
+                    Matriculado <input type="checkbox" name="matriculado">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    Mostrar datos:
+                </td>
+                <td>
+                    <br>
+                    <select name="datos">
+                        <option value="pantalla">Por Pantalla</option>
+                        <option value="txt">En Archivo datos.txt</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="enviar" value="Enviar datos">
+        </form>
+    </body>
+</html>
